@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="180" viewBox="0 0 240 180" role="img" aria-label="Microcontroller board">
+  <rect width="240" height="180" rx="16" fill="#f8fafc" />
+  <rect x="30" y="35" width="180" height="110" rx="12" fill="#ffffff" stroke="#f85606" stroke-width="2" />
+  <circle cx="70" cy="90" r="12" fill="#f85606" />
+  <circle cx="120" cy="90" r="12" fill="#ffb36f" />
+  <circle cx="170" cy="90" r="12" fill="#1b3c75" />
+  <rect x="60" y="120" width="120" height="10" rx="5" fill="#0f172a" opacity="0.12" />
+</svg>

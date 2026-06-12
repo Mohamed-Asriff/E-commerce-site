@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@500&display=swap');
+
+:root {
+  --bg: #f5f7fa;
+  --ink: #1e293b;
+  --ink-soft: #64748b;
+  --accent: #f56565;
+  --accent-2: #4fd1c5;
+  --border: #e2e8f0;
+  --surface: #ffffff;
+  --heading: 'Inter', 'Segoe UI', sans-serif;
+  --body: 'Inter', 'Segoe UI', sans-serif;
+  --mono: 'Roboto Mono', monospace;
+
+  font: 16px/160% var(--body);
+  color: var(--ink);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading);
+  font-weight: 700;
+  margin: 0 0 8px;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: clamp(24px, 2.4vw, 32px);
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+button,
+input {
+  font-family: var(--body);
+}
+
+a {
+  color: inherit;
+}

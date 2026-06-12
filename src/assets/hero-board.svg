@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Arduino bundle">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff1e7" />
+      <stop offset="1" stop-color="#ffe1cf" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#bg)" />
+  <rect x="60" y="70" width="300" height="180" rx="16" fill="#ffffff" stroke="#f85606" stroke-width="2" />
+  <rect x="420" y="90" width="160" height="120" rx="16" fill="#0f172a" opacity="0.1" />
+  <circle cx="120" cy="160" r="18" fill="#f85606" />
+  <circle cx="200" cy="160" r="18" fill="#f85606" />
+  <rect x="90" y="120" width="200" height="16" rx="8" fill="#0f172a" opacity="0.12" />
+  <text x="60" y="290" font-family="Arial, sans-serif" font-size="28" fill="#0f172a" font-weight="700">Arduino Starter Bundle</text>
+  <text x="60" y="320" font-family="Arial, sans-serif" font-size="16" fill="#475569">Boards, sensors, jumpers, USB-C</text>
+</svg>

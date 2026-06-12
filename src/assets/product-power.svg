@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="180" viewBox="0 0 240 180" role="img" aria-label="Power module">
+  <rect width="240" height="180" rx="16" fill="#f8fafc" />
+  <rect x="60" y="55" width="120" height="70" rx="12" fill="#ffffff" stroke="#f85606" stroke-width="2" />
+  <rect x="90" y="75" width="60" height="10" rx="5" fill="#0f172a" opacity="0.12" />
+  <rect x="90" y="95" width="60" height="10" rx="5" fill="#0f172a" opacity="0.12" />
+</svg>

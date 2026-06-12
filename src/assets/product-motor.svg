@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="180" viewBox="0 0 240 180" role="img" aria-label="DC motor">
+  <rect width="240" height="180" rx="16" fill="#f8fafc" />
+  <rect x="50" y="60" width="120" height="60" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="2" />
+  <rect x="170" y="78" width="30" height="24" rx="6" fill="#f85606" />
+  <circle cx="70" cy="90" r="8" fill="#1b3c75" />
+</svg>

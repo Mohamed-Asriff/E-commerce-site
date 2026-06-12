@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="LED strip">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7f0" />
+      <stop offset="1" stop-color="#ffe9d7" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#bg)" />
+  <rect x="70" y="120" width="500" height="48" rx="24" fill="#ffffff" stroke="#f85606" stroke-width="2" />
+  <circle cx="130" cy="144" r="12" fill="#f85606" />
+  <circle cx="200" cy="144" r="12" fill="#ffb36f" />
+  <circle cx="270" cy="144" r="12" fill="#1b3c75" />
+  <circle cx="340" cy="144" r="12" fill="#f85606" />
+  <circle cx="410" cy="144" r="12" fill="#ffb36f" />
+  <circle cx="480" cy="144" r="12" fill="#1b3c75" />
+  <text x="70" y="260" font-family="Arial, sans-serif" font-size="28" fill="#0f172a" font-weight="700">LED Strip Week</text>
+  <text x="70" y="290" font-family="Arial, sans-serif" font-size="16" fill="#475569">RGB strips, controllers, power kits</text>
+</svg>

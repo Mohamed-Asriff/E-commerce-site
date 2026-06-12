@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="180" viewBox="0 0 240 180" role="img" aria-label="LED strip">
+  <rect width="240" height="180" rx="16" fill="#f8fafc" />
+  <rect x="40" y="78" width="160" height="24" rx="12" fill="#ffffff" stroke="#f85606" stroke-width="2" />
+  <circle cx="70" cy="90" r="8" fill="#f85606" />
+  <circle cx="100" cy="90" r="8" fill="#ffb36f" />
+  <circle cx="130" cy="90" r="8" fill="#1b3c75" />
+  <circle cx="160" cy="90" r="8" fill="#f85606" />
+</svg>
