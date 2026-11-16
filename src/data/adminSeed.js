@@ -1,4 +1,4 @@
-export const adminCredentials = {
+git status export const adminCredentials = {
   email: 'mohamedasriff2003@gmail.com',
   password: 'DM.Asriff@2003'
 }
