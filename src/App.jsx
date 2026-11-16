@@ -8,10 +8,11 @@ import productLed from './assets/product-led.svg'
 import productMotor from './assets/product-motor.svg'
 import productDisplay from './assets/product-display.svg'
 import productPower from './assets/product-power.svg'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import { Link } from 'react-router-dom'
 
 function App() {
-  const quickLinks = ['Help Center', 'Sell on Store', 'Track Order']
-
   const categories = [
     {
       title: 'All Categories',
@@ -54,8 +55,6 @@ function App() {
       subs: ['Soldering', 'Multimeters', 'Crimpers', 'Hand tools']
     }
   ]
-
-  const navLinks = ['Bundle Deals', 'Choice', 'SuperDeals', 'Business', 'Robotics', 'Appliances']
 
   const products = [
     {
@@ -252,75 +251,7 @@ function App() {
 
   return (
     <div className="site">
-      <header className="topbar">
-        <div className="topbar-left">Modern IoT Marketplace | Mobile: 0754558689</div>
-        <div className="topbar-right">
-          {quickLinks.map((item) => (
-            <span key={item}>{item}</span>
-          ))}
-        </div>
-      </header>
-
-      <div className="header">
-        <div className="logo">
-          <span className="logo-mark" aria-hidden="true" />
-          Circuit Collective
-        </div>
-        <div className="search">
-          <input type="text" placeholder="Search for components, boards, and tools..." />
-          <button type="button" className="primary">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-            <span>Search</span>
-          </button>
-        </div>
-        <div className="header-actions">
-          <button type="button" className="ghost">
-            EN / LKR
-          </button>
-          <button type="button" className="ghost">
-            Sign In
-          </button>
-          <button type="button" className="cart">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <circle cx="9" cy="21" r="1"></circle>
-              <circle cx="20" cy="21" r="1"></circle>
-              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-            </svg>
-            <span>Cart</span>
-            <span className="badge">3</span>
-          </button>
-        </div>
-      </div>
-
-      <nav className="nav-row">
-        <div className="nav-pill">All Categories</div>
-        {navLinks.map((link) => (
-          <span key={link}>{link}</span>
-        ))}
-      </nav>
+      <Header />
 
       <main className="hero">
         <aside className="category-rail">
@@ -394,12 +325,12 @@ function App() {
           <div className="side-card">
             <div className="side-label">Your Account</div>
             <h3>Sign in for the best experience</h3>
-            <button type="button" className="primary">
+            <Link to="/admin" className="primary ghost-link auth-inline-link">
               Sign In Securely
-            </button>
-            <button type="button" className="ghost small">
+            </Link>
+            <Link to="/create-account" className="ghost ghost-link small">
               Create an Account
-            </button>
+            </Link>
           </div>
           <div className="side-card dark">
             <div className="side-label">Become a Seller</div>
@@ -457,29 +388,7 @@ function App() {
         </div>
       </section>
 
-      <footer className="footer">
-        <div className="footer-brand">
-          <div className="logo">
-            <span className="logo-mark" aria-hidden="true" />
-            Circuit Collective
-          </div>
-          <p>Your one-stop shop for electronics and IoT.</p>
-        </div>
-        <div className="footer-links">
-          <div>
-            <h4>Customer Service</h4>
-            <span>Help Center</span>
-            <span>How to Buy</span>
-            <span>Track Your Order</span>
-          </div>
-          <div>
-            <h4>About Us</h4>
-            <span>About Circuit Collective</span>
-            <span>Careers</span>
-            <span>Terms & Conditions</span>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
